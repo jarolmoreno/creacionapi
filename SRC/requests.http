@@ -1,0 +1,35 @@
+###
+POST http:localhost:9000/api/users HTTP/1.1
+
+
+Content-Type: application/json
+
+{
+    "id": "1",
+    "nombre":"juan",
+    "apellido":"rodriguez",
+    "nacimiento":"30 4 1979",
+    "rol":"administrador",
+    "telefono":"312000000",
+    "email":"rodriguez@api.com",
+    "password":"api11111",
+    "usuario":"admin1",
+    "clientes":"si",
+
+}
+###
+GET http:localhost:9000/api/users HTTP/1.1
+
+###
+
+GET http:localhost:9000/api/users HTTP/1.1
+
+###
+
+PUT http:localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+###
+
+
+
